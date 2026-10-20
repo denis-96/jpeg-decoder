@@ -1,0 +1,20 @@
+# CMake build trees
+/build/
+/cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+CTestTestfile.cmake
+cmake_install.cmake
+install_manifest.txt
+
+# IDE and compiler artifacts
+.clangd/
+.cache/
+.vscode/
+compile_commands.json
+*.o
+*.a
+*.so
+
+# Windows alternate data streams copied with source files
+*:Zone.Identifier
